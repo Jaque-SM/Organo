@@ -1,0 +1,22 @@
+h2{
+    display: block;
+    font-family: monospace;
+    font-style:oblique;
+    font-weight: bold;
+    margin-left: 25px;
+    color: blue;
+    margin-bottom: 8px;
+    font-size: 24px;
+}
+.formulario{
+    display: flex;
+    justify-content: center;
+    margin: 80px 0;
+}
+.formulario form {
+    max-width: 80%;
+    background-color: rgb(178, 208, 198);
+    border-radius: 20px;
+    padding:  36px 64px;
+    box-shadow: 8px 8px 16px rgba(0, 0, 0,0.00 );
+}
