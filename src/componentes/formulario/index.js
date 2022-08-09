@@ -12,6 +12,8 @@ const Formulario = (props) => {
         'Front-End',
         'Devops',
         'Mobile',
+        "UX Design",
+        "Data Science",
         'Inovação e Gestão'
     ]
 
@@ -56,10 +58,11 @@ const Formulario = (props) => {
             placeholder="Digite o seu endereço da imagem..."/>
            
             <ListaSuspensa 
+            obrigatorio={true}
              valor={time}
             Alterado={valor=> setTime(valor)}
             label="Time: "
-            itens={times} />
+            itens={props.times} />
 
             <Botao texto="Criar Card"/>       
          </form>

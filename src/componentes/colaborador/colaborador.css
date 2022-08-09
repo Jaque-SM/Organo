@@ -1,0 +1,26 @@
+.colaborador h4{
+    display: block;
+    color: crimson;
+    background-color: antiquewhite;
+    background-size: 2px;
+    border-radius: 25px;
+    font-family: monospace;
+    font-style:oblique;
+    font-weight: bold;
+    background-size: auto;
+    font-size: 30px;
+}
+.colaborador h5{
+    border-radius: 25px;
+    display: block;
+    color: rgb(22, 200, 28);
+    background-color: antiquewhite;
+    background-size: 25px;
+    font-family: monospace;
+    font-style:oblique;
+    font-weight: bold;
+    font-size: 30px;
+
+
+
+}
